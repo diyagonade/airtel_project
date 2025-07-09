@@ -9,6 +9,7 @@ const ContactSection = () => {
     contactType: 'sales',
     message: ''
   });
+//this is a practice commit
 
   const handleChange = (e) => {
     setFormData({
