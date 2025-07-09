@@ -1,11 +1,10 @@
 import React from 'react';
-import './components/App.css'; // Import CSS directly
 import Navbar from './components/Navbar';
 import Header from './components/Header';
 import HeroSection from './components/HeroSection';
 import ServicesSection from './components/ServicesSection';
 import ContactSection from './components/ContactSection';
-import FQAsection from './components/FQAsection';
+import FAQsection from './components/FAQsection';
 import Footer from './components/Footer';
 
 const App = () => {
@@ -16,7 +15,7 @@ const App = () => {
       <HeroSection />
       <ServicesSection />
       <ContactSection />
-      <FQAsection/>
+      <FAQsection/>
       <Footer />
     </div>
   );
